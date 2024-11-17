@@ -1,0 +1,9 @@
+../Drivers/BMP280/bmp280.c:78:19:read_data	1
+../Drivers/BMP280/bmp280.c:64:13:read_register16	2
+../Drivers/BMP280/bmp280.c:129:12:write_register8	1
+../Drivers/BMP280/bmp280.c:55:6:bmp280_init_default_params	1
+../Drivers/BMP280/bmp280.c:140:6:bmp280_init	31
+../Drivers/BMP280/bmp280.c:205:6:bmp280_force_measurement	2
+../Drivers/BMP280/bmp280.c:217:6:bmp280_is_measuring	2
+../Drivers/BMP280/bmp280.c:300:6:bmp280_read_fixed	7
+../Drivers/BMP280/bmp280.c:334:6:bmp280_read_float	4
