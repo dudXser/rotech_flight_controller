@@ -1,0 +1,5 @@
+../Drivers/BMP280/spi_basic.c:16:9:spi_wr_byte	32	static
+../Drivers/BMP280/spi_basic.c:37:6:spi_w_bytes	32	static
+../Drivers/BMP280/spi_basic.c:57:6:spi_r_bytes	32	static
+../Drivers/BMP280/spi_basic.c:75:6:spi_w_byte	24	static
+../Drivers/BMP280/spi_basic.c:92:9:spi_r_byte	40	static

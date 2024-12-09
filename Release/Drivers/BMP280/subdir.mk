@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Drivers/BMP280/bmp280.c 
+../Drivers/BMP280/bmp280.c \
+../Drivers/BMP280/spi_basic.c 
 
 OBJS += \
-./Drivers/BMP280/bmp280.o 
+./Drivers/BMP280/bmp280.o \
+./Drivers/BMP280/spi_basic.o 
 
 C_DEPS += \
-./Drivers/BMP280/bmp280.d 
+./Drivers/BMP280/bmp280.d \
+./Drivers/BMP280/spi_basic.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ Drivers/BMP280/%.o Drivers/BMP280/%.su Drivers/BMP280/%.cyclo: ../Drivers/BMP280
 clean: clean-Drivers-2f-BMP280
 
 clean-Drivers-2f-BMP280:
-	-$(RM) ./Drivers/BMP280/bmp280.cyclo ./Drivers/BMP280/bmp280.d ./Drivers/BMP280/bmp280.o ./Drivers/BMP280/bmp280.su
+	-$(RM) ./Drivers/BMP280/bmp280.cyclo ./Drivers/BMP280/bmp280.d ./Drivers/BMP280/bmp280.o ./Drivers/BMP280/bmp280.su ./Drivers/BMP280/spi_basic.cyclo ./Drivers/BMP280/spi_basic.d ./Drivers/BMP280/spi_basic.o ./Drivers/BMP280/spi_basic.su
 
 .PHONY: clean-Drivers-2f-BMP280
 
